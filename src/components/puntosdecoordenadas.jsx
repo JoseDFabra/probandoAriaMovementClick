@@ -320,7 +320,6 @@ function Pcoordenadas({ theme }) {
   return (
     <>
       <Cli theme={theme} />
-      <button onClick={()=>{console.log(watch())}} >mostrar</button>
       <div
         className={`
       container-card
