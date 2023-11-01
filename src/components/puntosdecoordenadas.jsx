@@ -1349,7 +1349,7 @@ function Pcoordenadas({ theme }) {
                         (await getMovement(item.movement5)).data
                       );
                     }
-                    /*  if (item.movement6 !== null) { movementList.push((await getMovement(item.movement6)).data) }
+                  if (item.movement6 !== null) { movementList.push((await getMovement(item.movement6)).data) }
                   if (item.movement7 !== null) { movementList.push((await getMovement(item.movement6)).data) }
                   if (item.movement8 !== null) { movementList.push((await getMovement(item.movement8)).data) }
                   if (item.movement9 !== null) { movementList.push((await getMovement(item.movement9)).data) }
@@ -1368,7 +1368,7 @@ function Pcoordenadas({ theme }) {
                   if (item.movement22 !== null) { movementList.push((await getMovement(item.movement22)).data) }
                   if (item.movement23 !== null) { movementList.push((await getMovement(item.movement23)).data) }
                   if (item.movement24 !== null) { movementList.push((await getMovement(item.movement24)).data) }
-                  if (item.movement25 !== null) { movementList.push((await getMovement(item.movement25)).data) } */
+                  if (item.movement25 !== null) { movementList.push((await getMovement(item.movement25)).data) }
 
                     setMovementsList(movementList);
                   }}
